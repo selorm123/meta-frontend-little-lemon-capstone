@@ -18,7 +18,7 @@ export default function Testimonials() {
             <div className="testimonial">
                 <img className="reviewer-img" src="/images/pfp3.jpg" alt="greek salad"/>
                 <div className="name-rating">
-                    <p className="reviewer-name">John Doe</p>
+                    <p className="reviewer-name">Alice Wondal</p>
                     <p className="reviewer-rating">5/5</p>
                 </div>
                 <div className="review-text">
@@ -31,7 +31,7 @@ export default function Testimonials() {
                 <img className="reviewer-img" src="/images/reviewer3.png" alt="greek salad"/>
                 <div className="name-rating">
                     <p className="reviewer-name">Olivia Twist</p>
-                    <p className="reviewer-rating">5/5</p>
+                    <p className="reviewer-rating">4/5</p>
                 </div>
                 <div className="review-text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa massa, 
@@ -42,7 +42,7 @@ export default function Testimonials() {
             <div className="testimonial">
                 <img className="reviewer-img" src="/images/pfp2.jpg" alt="greek salad"/>
                 <div className="name-rating">
-                    <p className="reviewer-name">John Doe</p>
+                    <p className="reviewer-name">Kelvin Odoi</p>
                     <p className="reviewer-rating">5/5</p>
                 </div>
                 <div className="review-text">

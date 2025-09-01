@@ -39,7 +39,7 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
     const options = availableTimes.map(time => <option key={time}>{time}</option>)
     return (
       <main>
-        <p className="desc-text form-desc">Please fill in the form below accurately to enable us serve you nicely.</p>
+        <p className="desc-text form-desc">Please fill in the form below accurately to reserve a table.</p>
         <form onSubmit={handleSubmit}>
           <div className="seperate">
             <label htmlFor="first-name">First Name</label>
