@@ -1,4 +1,4 @@
-export default function ConfirmedBooking() {
+ function ConfirmedBooking() {
     return (
       <main className="confirmed-main">
        <p className="title confirmed-title">Booking Confirmed!!!</p>
@@ -8,4 +8,4 @@ export default function ConfirmedBooking() {
     )
   }
   
-
+export default ConfirmedBooking
