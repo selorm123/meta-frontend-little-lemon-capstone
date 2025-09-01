@@ -10,9 +10,10 @@ export default function Hero() {
                 <p className="desc">We are a family owned Mediterranean restaurant, 
                     focused on traditional recipes served with a modern twist.</p>
                 <Link to="/booking" ><button className="reserve-btn btn">
-                    Reserve a table
+                    Book a Table
                 </button></Link>
             </div>
+            
             <div className="img-wrapper">
             <img className="hero-img" src="../images/hero.png" alt="hero image"/>
             </div>
