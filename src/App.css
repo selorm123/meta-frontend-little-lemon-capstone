@@ -246,24 +246,18 @@ select {
 	background-color: #495E57;
 }
 
-/* .img-wrapper {
-	right: 2em;
-	max-width: 250px;
-	max-height: 275px;
-	align-self: flex-end;
-	margin-bottom: -1em;
-	flex-basis: 1;
-} */
+
 
 .hero-img {
 	width: 85%;
+	border: none;
 }
 
 .hero-content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 5em;
+	gap: 4em;
 }
 
 .hero-desc,
@@ -325,7 +319,7 @@ select {
 	flex-direction: column;
 	gap: 1em;
 	padding-bottom: 1em;
-	background-color: hsl(0, 0%, 89%);
+	background-color: hsl(0, 0%, 95%);
 	border-radius: 10px;
 }
 
@@ -427,7 +421,7 @@ footer {
 }
 
 .reserve-btn {
-	margin-top: 1em;
+	margin-top: 3em;
 }
 
 .btn {
