@@ -16,9 +16,9 @@ export default function Footer() {
             </div>
             <div className="footer-contact">
                 <p className="footer-head">Contact</p>
-                <a href="#" className="footer-item">Address</a>
-                <a href="#" className="footer-item">Phone Number</a>
-                <a href="#" className="footer-item">Email</a>
+                <a href="#" className="footer-item">123 Updown St.</a>
+                <a href="#" className="footer-item">+44 785 459 785</a>
+                <a href="#" className="footer-item">little-lemon@lemon.com</a>
             </div>
             <div className="footer-social">
                 <p className="footer-head">Social Media</p>

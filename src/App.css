@@ -387,7 +387,7 @@ footer {
 
 .footer-content {
 	display: flex;
-	gap: 2em;
+	gap: 3.5em;
 }
 
 .footer-nav,
