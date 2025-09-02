@@ -40,7 +40,7 @@ import { useNavigate } from "react-router-dom"
     return (
       <main>
         <p className="desc-text form-desc">Please fill in the form below accurately to reserve a table.</p>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} aria-label="booking form">
           <div className="seperate">
             <label htmlFor="first-name">First Name</label>
             <input type="text" id="first-name" name="firstName" value={formData.firstName} onChange={handleFormChange} required />
@@ -62,7 +62,7 @@ import { useNavigate } from "react-router-dom"
             </div>
             <div className="seperate-child">
               <label htmlFor="res-time">Choose time</label>
-              <select id="res-time " name="time" value={formData.time} onChange={handleFormChange} required>
+              <select id="res-time" name="time" value={formData.time} onChange={handleFormChange} required>
                 {options}
               </select>
             </div>
