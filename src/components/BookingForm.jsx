@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-export default function BookingForm({availableTimes, dispatch, submitForm}) {
+ function BookingForm({availableTimes, dispatch, submitForm}) {
     console.log(dispatch)
     const [formData, setFormData] = useState({
         firstName: "",
@@ -50,7 +50,7 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
             <input type="text" id="last-name" name="lastName" value={formData.lastName} onChange={handleFormChange} required />
           </div>
           <div className="seperate">
-            <label htmlFor="contact-number">Contact Number</label>
+            <label htmlFor="contact-number">Contact No.</label>
             <input type="text" id="contact-number" name="contactNumber" placeholder="123-456-7890"
             value={formData.contactNumber} onChange={handleFormChange} 
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
@@ -85,6 +85,8 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
       </main>
     )
   }
+
+  export default BookingForm
   
 
   
