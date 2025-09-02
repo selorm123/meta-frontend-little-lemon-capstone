@@ -2,7 +2,7 @@ export default function Menu() {
     return (
       <div className="menu">
         <div className="menu-desc">
-            <p className="title menu-title">This weeks specials!</p>
+            <p className="title menu-title">This Weeks Specials!</p>
             <button className="btn">
                     Online Menu
                 </button>
