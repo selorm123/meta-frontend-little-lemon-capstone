@@ -27,7 +27,7 @@ label {
 
 .title {
 	font-family: 'Markazi Text', serif;
-	font-size: 64px;
+	font-size: 60px;
 	font-weight: 500;
 	line-height: 77px;
 	letter-spacing: 0em;
@@ -103,7 +103,7 @@ label {
 	letter-spacing: 0em;
 	text-align: left;
 	color: #495E57;
-	padding-bottom: 2em;
+	padding-bottom: 0.5em;
 }
 
 .delivery {
@@ -278,7 +278,7 @@ select {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: 2em;
+	gap: 7em;
 	margin-bottom: 2em;
 }
 
