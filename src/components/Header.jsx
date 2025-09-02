@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <Link to="./">
+      <Link to="/">
         <img src="/images/logo.png" alt="little lemon" />
       </Link>
       <Nav />

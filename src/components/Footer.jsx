@@ -5,7 +5,7 @@ function Footer() {
       <img src="/images/footer.png" alt="little lemon" />
       <div className="footer-content">
         <div className="footer-nav">
-          <p className="footer-head">Navigtion</p>
+          <p className="footer-head">Navigation</p>
           <Link to="/" className="footer-item">
             Home
           </Link>
